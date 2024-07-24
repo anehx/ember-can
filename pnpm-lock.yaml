@@ -290,6 +290,9 @@ importers:
       ember-page-title:
         specifier: ^9.0.1
         version: 9.0.1(6508b3c4df8fbac914e36403c1fb8214)
+      ember-promise-helpers:
+        specifier: ^2.0.0
+        version: 2.0.0
       ember-qunit:
         specifier: ^9.0.1
         version: 9.0.2(9cbd2f138baa249bde1fdcdbeb334b8d)
@@ -3486,6 +3489,10 @@ packages:
     engines: {node: 16.* || >= 18}
     peerDependencies:
       ember-source: '>= 4.2.0'
+
+  ember-promise-helpers@2.0.0:
+    resolution: {integrity: sha512-ZQlzSRjCdDgGBlXHtk+LKmxOlXWKalBBZrmYlr2X/kqNf7vaVUnlKQD1T+sRzwnsZZTQwL5PKfLmSWF3hFD69g==}
+    engines: {node: 12.* || 14.* || >= 16}
 
   ember-qunit@9.0.2:
     resolution: {integrity: sha512-vAuumvTYgfFpP0LgK1uw2vBEnD7bv1JYh0JUwkFfBiAkCGV7HkjVWNcgQ2agwarfzxLgEaC0hWlOn9adwJmlNg==}
@@ -11768,6 +11775,13 @@ snapshots:
       '@embroider/addon-shim': 1.9.0
       '@simple-dom/document': 1.4.0
       ember-source: 5.12.0(a49e330bc426f38e56d2c1a89e7ec84a)
+    transitivePeerDependencies:
+      - supports-color
+
+  ember-promise-helpers@2.0.0:
+    dependencies:
+      ember-cli-babel: 7.26.11
+      ember-cli-htmlbars: 5.7.2
     transitivePeerDependencies:
       - supports-color
 
